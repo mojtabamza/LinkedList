@@ -159,7 +159,13 @@ int main()
 	// Delete node at position 2.
 	list.deleteNode(2);
 
+
 	cout << "Elements of the list are: ";
+	list.printList();
+	cout << endl;
+
+	list.insertNode(5);
+
 	list.printList();
 	cout << endl;
 	return 0;
